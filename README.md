@@ -3,22 +3,46 @@
 [![Build Status](https://travis-ci.org/weiliu89/caffe.svg?branch=ssd)](https://travis-ci.org/weiliu89/caffe)
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
 
+<<<<<<< HEAD
 By [Wei Liu](http://www.cs.unc.edu/~wliu/), [Dragomir Anguelov](https://www.linkedin.com/in/dragomiranguelov), [Dumitru Erhan](http://research.google.com/pubs/DumitruErhan.html), [Christian Szegedy](http://research.google.com/pubs/ChristianSzegedy.html), [Scott Reed](http://www-personal.umich.edu/~reedscot/), [Cheng-Yang Fu](http://www.cs.unc.edu/~cyfu/), [Alexander C. Berg](http://acberg.com).
+=======
+Caffe is a deep learning framework made with expression, speed, and modularity in mind.
+It is developed by Berkeley AI Research ([BAIR](http://bair.berkeley.edu))/The Berkeley Vision and Learning Center (BVLC) and community contributors.
+>>>>>>> master
 
 ### Introduction
 
+<<<<<<< HEAD
 SSD is an unified framework for object detection with a single network. You can use the code to train/evaluate a network for object detection task. For more details, please refer to our [arXiv paper](http://arxiv.org/abs/1512.02325) and our [slide](http://www.cs.unc.edu/~wliu/papers/ssd_eccv2016_slide.pdf).
+=======
+- [DIY Deep Learning for Vision with Caffe](https://docs.google.com/presentation/d/1UeKXVgRvvxg9OUdh_UiC5G71UMscNPlvArsWER41PsU/edit#slide=id.p)
+- [Tutorial Documentation](http://caffe.berkeleyvision.org/tutorial/)
+- [BAIR reference models](http://caffe.berkeleyvision.org/model_zoo.html) and the [community model zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)
+- [Installation instructions](http://caffe.berkeleyvision.org/installation.html)
+>>>>>>> master
 
 <p align="center">
 <img src="http://www.cs.unc.edu/~wliu/papers/ssd.png" alt="SSD Framework" width="600px">
 </p>
 
+<<<<<<< HEAD
 | System | VOC2007 test *mAP* | **FPS** (Titan X) | Number of Boxes | Input resolution
 |:-------|:-----:|:-------:|:-------:|:-------:|
 | [Faster R-CNN (VGG16)](https://github.com/ShaoqingRen/faster_rcnn) | 73.2 | 7 | ~6000 | ~1000 x 600 |
 | [YOLO (customized)](http://pjreddie.com/darknet/yolo/) | 63.4 | 45 | 98 | 448 x 448 |
 | SSD300* (VGG16) | 77.2 | 46 | 8732 | 300 x 300 |
 | SSD512* (VGG16) | **79.8** | 19 | 24564 | 512 x 512 |
+=======
+## Custom distributions
+
+ - [Intel Caffe](https://github.com/BVLC/caffe/tree/intel) (Optimized for CPU and support for multi-node), in particular Xeon processors (HSW, BDW, Xeon Phi).
+- [OpenCL Caffe](https://github.com/BVLC/caffe/tree/opencl) e.g. for AMD or Intel devices.
+- [Windows Caffe](https://github.com/BVLC/caffe/tree/windows)
+
+## Community
+
+[![Join the chat at https://gitter.im/BVLC/caffe](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BVLC/caffe?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+>>>>>>> master
 
 
 <p align="left">
@@ -27,7 +51,12 @@ SSD is an unified framework for object detection with a single network. You can 
 
 _Note: SSD300* and SSD512* are the latest models. Current code should reproduce these results._
 
+<<<<<<< HEAD
 ### Citing SSD
+=======
+Caffe is released under the [BSD 2-Clause license](https://github.com/BVLC/caffe/blob/master/LICENSE).
+The BAIR/BVLC reference models are released for unrestricted use.
+>>>>>>> master
 
 Please cite SSD in your publications if it helps your research:
 
