@@ -7,7 +7,8 @@
 #include <string>
 #include <utility>
 #include <vector>
-
+#define CV_FOURCC cv::VideoWriter::fourcc
+#define CV_FILLED cv::LineTypes::FILLED
 #include "boost/iterator/counting_iterator.hpp"
 
 #include "caffe/util/bbox_util.hpp"

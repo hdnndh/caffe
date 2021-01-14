@@ -2,10 +2,12 @@
 #define CAFFE_VIDEO_DATA_LAYER_HPP_
 
 #ifdef USE_OPENCV
+#include <opencv2/videoio.hpp>
 #if OPENCV_VERSION == 3
 #include <opencv2/videoio.hpp>
 #else
 #include <opencv2/opencv.hpp>
+
 #endif  // OPENCV_VERSION == 3
 
 #include <string>

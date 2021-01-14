@@ -3,7 +3,18 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/highgui/highgui_c.h>
 #include <opencv2/imgproc/imgproc.hpp>
-
+#include <opencv2/imgproc/types_c.h>
+#define CV_GRAY2BGR cv::COLOR_GRAY2BGR
+#define CV_BGR2GRAY cv::COLOR_BGR2GRAY
+#define CV_BGR2HSV cv::COLOR_BGR2HSV
+#define CV_BGR2Lab cv::COLOR_BGR2Lab
+#define CV_LOAD_IMAGE_COLOR cv::IMREAD_COLOR
+#define CV_LOAD_IMAGE_GRAYSCALE cv::IMREAD_GRAYSCALE
+#define CV_THRESH_BINARY_INV cv::THRESH_BINARY_INV
+#define CV_THRESH_OTSU cv::THRESH_OTSU
+#define CV_BGR2YCrCb cv::COLOR_BGR2YCrCb
+#define CV_YCrCb2BGR cv::COLOR_YCrCb2BGR
+#define CV_IMWRITE_JPEG_QUALITY cv::IMWRITE_JPEG_QUALITY
 #include <string>
 
 #include "gtest/gtest.h"
