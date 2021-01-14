@@ -30,8 +30,6 @@ class DataLayer : public BasePrefetchingDataLayer<Dtype> {
   bool Skip();
   virtual void load_batch(Batch<Dtype>* batch);
 
-  DataReader<Datum> reader_;
-
   shared_ptr<db::DB> db_;
   shared_ptr<db::Cursor> cursor_;
   uint64_t offset_;
